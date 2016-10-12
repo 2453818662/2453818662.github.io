@@ -637,7 +637,7 @@ pre .javascript .function {
 .full-image.full-image.full-image {
   border: none;
   max-width: 100%;
-  width: auto;
+  width: 100;
   margin: 20px auto;
 }
 @media (min-width: 992px) {
@@ -1557,7 +1557,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #be21ff;
+  background: #78ffff;
 }
 .links-of-blogroll {
   font-size: 13px;
