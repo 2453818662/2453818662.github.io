@@ -5,7 +5,7 @@
   
 
 
-<html class="theme-next muse use-motion">
+<html class="theme-next pisces use-motion">
 <head>
   <meta charset="UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
@@ -84,19 +84,23 @@
 
 
 
-<meta property="og:type" content="website">
-<meta property="og:title" content="Hexo">
-<meta property="og:url" content="http://yoursite.com/archives/2016/08/index.html">
+<meta name="description" content="小马激活篡改主页不定时启动程序：scrcons.exe">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Test Article">
+<meta property="og:url" content="http://yoursite.com/2016/03/12/Test-Article/index.html">
 <meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="小马激活篡改主页不定时启动程序：scrcons.exe">
+<meta property="og:updated_time" content="2016-10-12T13:56:27.306Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Hexo">
+<meta name="twitter:title" content="Test Article">
+<meta name="twitter:description" content="小马激活篡改主页不定时启动程序：scrcons.exe">
 
 
 
 <script type="text/javascript" id="hexo.configuration">
   var NexT = window.NexT || {};
   var CONFIG = {
-    scheme: 'Muse',
+    scheme: 'Pisces',
     sidebar: {"position":"left","display":"post"},
     fancybox: true,
     motion: true,
@@ -110,10 +114,10 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/archives/2016/08/"/>
+  <link rel="canonical" href="http://yoursite.com/2016/03/12/Test-Article/"/>
 
 
-  <title> 归档 | Hexo </title>
+  <title> Test Article | Hexo </title>
 </head>
 
 <body itemscope itemtype="//schema.org/WebPage" lang="zh-Hans">
@@ -134,7 +138,7 @@
     
   
 
-  <div class="container one-collumn sidebar-position-left  page-archive  ">
+  <div class="container one-collumn sidebar-position-left page-post-detail ">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="//schema.org/WPHeader">
@@ -222,66 +226,125 @@
           <div id="content" class="content">
             
 
-  <section id="posts" class="posts-collapse">
-    <span class="archive-move-on"></span>
-
-    <span class="archive-page-counter">
-      
-      
-      
-        
-      
-      嗯..! 目前共计 3 篇日志。 继续努力。
-    </span>
-
+  <div id="posts" class="posts-expand">
     
 
-      
+  
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="//schema.org/Article">
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                Test Article
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            <span class="post-meta-item-icon">
+              <i class="fa fa-calendar-o"></i>
+            </span>
+            <span class="post-meta-item-text">发表于</span>
+            <time itemprop="dateCreated" datetime="2016-03-12T21:38:27+08:00" content="2016-03-12">
+              2016-03-12
+            </time>
+          </span>
+
+          
+
+          
+            
+          
+
+          
+
+          
+          
+
+          
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
       
       
 
       
+        <h2 id="小马激活篡改主页"><a href="#小马激活篡改主页" class="headerlink" title="小马激活篡改主页"></a>小马激活篡改主页</h2><p>不定时启动程序：scrcons.exe<br><a id="more"></a></p>
+<h3 id="第一步"><a href="#第一步" class="headerlink" title="第一步:"></a>第一步:</h3><p>首先在桌面和开始菜单里查看所有IE、Chrome浏览器快捷方式属性，把目标栏里的“<a href="http://hao.qquu8.com”删掉；" target="_blank" rel="external">http://hao.qquu8.com”删掉；</a> chrome被hao123劫持 Chrome浏览器快捷方式属性。（特别提醒： 别忘了进入C:\Users\你的用户名\AppData\Roaming\Microsoft\Internet Explorer\Quick Launch文件夹，同样是查看IE和Chrome的属性，然后把其中的“<a href="http://hao.qquu8.com”删掉）" target="_blank" rel="external">http://hao.qquu8.com”删掉）</a></p>
+<h3 id="第二步："><a href="#第二步：" class="headerlink" title="第二步："></a>第二步：</h3><p>按一下组合键“Win+R”调出运行命令框。在打开栏中键入regedit.exe，回车，打开注册表编辑器（若弹出用户账户控制窗口，请点击 是 继续），依次定位到：HKEY_CURRENT_USER\Software\Policies\Microsoft</p>
+<p>展开Microsoft，查看其下是否包含子项 Internet Explorer 若有，删除（右击Internet Explorer，选择“删除”）。</p>
+<p>然后再依次定位到以下3个注册表项。单击Main，查看右边细节窗口中[Default_Page_URL]值和[Start Page]值是否有异常。如果被修改了，请根据自己的需要改回（右击键值，选择“修改”进行更改）。</p>
+<p>HKEY_CURRENT_USER\SOFTWARE\Microsoft\Internet Explorer\Main</p>
+<p>HKEY_ LOCAL_MACHINE\SOFTWARE\Microsoft\Internet Explorer\Main</p>
+<p>HKEY_USERS\Default\Software\Microsoft\Internet Explorer\Main</p>
+<h3 id="第三步："><a href="#第三步：" class="headerlink" title="第三步："></a>第三步：</h3><p>完成以上工作后，将系统设置为“显示隐藏的文件、文件夹”，然后在C:\Windows目录下找到OEM文件（或文件夹），将他们删除。</p>
+<p>通过以上方法，应该可以解决了。</p>
+
+      
+    </div>
+
+    <div>
+      
         
-        <div class="collection-title">
-          <h2 class="archive-year motion-element" id="archive-year-2016">2016</h2>
+
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+          </div>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2016/06/12/Test-Recent-Articles/" rel="prev" title="Test Recent Articles">
+                Test Recent Articles <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
         </div>
       
-      
 
       
-
-  <article class="post post-type-normal" itemscope itemtype="//schema.org/Article">
-    <header class="post-header">
-
-      <h1 class="post-title">
-        
-            <a class="post-title-link" href="/2016/08/12/Test-Recent-Articles/" itemprop="url">
-              
-                <span itemprop="name">Test Recent Articles</span>
-              
-            </a>
-        
-      </h1>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2016-08-12T21:22:51+08:00"
-              content="2016-08-12" >
-          08-12
-        </time>
-      </div>
-
-    </header>
+      
+    </footer>
   </article>
 
 
 
-    
-
-  </section>
-
-  
-
+    <div class="post-spread">
+      
+    </div>
+  </div>
 
 
           </div>
@@ -289,6 +352,10 @@
 
 
           
+  <div class="comments" id="comments">
+    
+  </div>
+
 
         </div>
         
@@ -308,8 +375,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <section class="site-overview sidebar-panel  sidebar-panel-active ">
+      <section class="site-overview sidebar-panel ">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="//schema.org/Person">
           <img class="site-author-image" itemprop="image"
                src="/images/avatar.gif"
@@ -346,6 +422,17 @@
       </section>
 
       
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+            
+              
+            
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#小马激活篡改主页"><span class="nav-number">1.</span> <span class="nav-text">小马激活篡改主页</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#第一步"><span class="nav-number">1.1.</span> <span class="nav-text">第一步:</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#第二步："><span class="nav-number">1.2.</span> <span class="nav-text">第二步：</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#第三步："><span class="nav-number">1.3.</span> <span class="nav-text">第三步：</span></a></li></ol></li></ol></div>
+            
+          </div>
+        </section>
+      
 
     </div>
   </aside>
@@ -374,7 +461,7 @@
 <div class="theme-info">
   主题 -
   <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">
-    NexT.Muse
+    NexT.Pisces
   </a>
 </div>
 
@@ -440,12 +527,17 @@
   
   
 
+
+  <script type="text/javascript" src="/js/src/affix.js?v=5.0.2"></script>
+
+  <script type="text/javascript" src="/js/src/schemes/pisces.js?v=5.0.2"></script>
+
+
+
   
-  
-    <script type="text/javascript" id="motion.page.archive">
-      $('.archive-year').velocity('transition.slideLeftIn');
-    </script>
-  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.0.2"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.0.2"></script>
+
 
 
   

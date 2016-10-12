@@ -5,7 +5,7 @@
   
 
 
-<html class="theme-next muse use-motion">
+<html class="theme-next pisces use-motion">
 <head>
   <meta charset="UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
@@ -84,23 +84,23 @@
 
 
 
-<meta name="description" content="小马激活篡改主页不定时启动程序：scrcons.exe">
+<meta name="description" content="Installation1npm i --save hexo-generator-recent">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Test Article">
-<meta property="og:url" content="http://yoursite.com/2016/07/12/Test-Article/index.html">
+<meta property="og:title" content="Test Recent Articles">
+<meta property="og:url" content="http://yoursite.com/2016/06/12/Test-Recent-Articles/index.html">
 <meta property="og:site_name" content="Hexo">
-<meta property="og:description" content="小马激活篡改主页不定时启动程序：scrcons.exe">
-<meta property="og:updated_time" content="2016-10-12T13:52:45.284Z">
+<meta property="og:description" content="Installation1npm i --save hexo-generator-recent">
+<meta property="og:updated_time" content="2016-10-12T13:56:25.057Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Test Article">
-<meta name="twitter:description" content="小马激活篡改主页不定时启动程序：scrcons.exe">
+<meta name="twitter:title" content="Test Recent Articles">
+<meta name="twitter:description" content="Installation1npm i --save hexo-generator-recent">
 
 
 
 <script type="text/javascript" id="hexo.configuration">
   var NexT = window.NexT || {};
   var CONFIG = {
-    scheme: 'Muse',
+    scheme: 'Pisces',
     sidebar: {"position":"left","display":"post"},
     fancybox: true,
     motion: true,
@@ -114,10 +114,10 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/2016/07/12/Test-Article/"/>
+  <link rel="canonical" href="http://yoursite.com/2016/06/12/Test-Recent-Articles/"/>
 
 
-  <title> Test Article | Hexo </title>
+  <title> Test Recent Articles | Hexo </title>
 </head>
 
 <body itemscope itemtype="//schema.org/WebPage" lang="zh-Hans">
@@ -247,7 +247,7 @@
             
             
               
-                Test Article
+                Test Recent Articles
               
             
           </h1>
@@ -259,8 +259,8 @@
               <i class="fa fa-calendar-o"></i>
             </span>
             <span class="post-meta-item-text">发表于</span>
-            <time itemprop="dateCreated" datetime="2016-07-12T21:38:27+08:00" content="2016-07-12">
-              2016-07-12
+            <time itemprop="dateCreated" datetime="2016-06-12T21:22:51+08:00" content="2016-06-12">
+              2016-06-12
             </time>
           </span>
 
@@ -287,16 +287,11 @@
       
 
       
-        <h2 id="小马激活篡改主页"><a href="#小马激活篡改主页" class="headerlink" title="小马激活篡改主页"></a>小马激活篡改主页</h2><p>不定时启动程序：scrcons.exe<br><a id="more"></a></p>
-<h3 id="第一步"><a href="#第一步" class="headerlink" title="第一步:"></a>第一步:</h3><p>首先在桌面和开始菜单里查看所有IE、Chrome浏览器快捷方式属性，把目标栏里的“<a href="http://hao.qquu8.com”删掉；" target="_blank" rel="external">http://hao.qquu8.com”删掉；</a> chrome被hao123劫持 Chrome浏览器快捷方式属性。（特别提醒： 别忘了进入C:\Users\你的用户名\AppData\Roaming\Microsoft\Internet Explorer\Quick Launch文件夹，同样是查看IE和Chrome的属性，然后把其中的“<a href="http://hao.qquu8.com”删掉）" target="_blank" rel="external">http://hao.qquu8.com”删掉）</a></p>
-<h3 id="第二步："><a href="#第二步：" class="headerlink" title="第二步："></a>第二步：</h3><p>按一下组合键“Win+R”调出运行命令框。在打开栏中键入regedit.exe，回车，打开注册表编辑器（若弹出用户账户控制窗口，请点击 是 继续），依次定位到：HKEY_CURRENT_USER\Software\Policies\Microsoft</p>
-<p>展开Microsoft，查看其下是否包含子项 Internet Explorer 若有，删除（右击Internet Explorer，选择“删除”）。</p>
-<p>然后再依次定位到以下3个注册表项。单击Main，查看右边细节窗口中[Default_Page_URL]值和[Start Page]值是否有异常。如果被修改了，请根据自己的需要改回（右击键值，选择“修改”进行更改）。</p>
-<p>HKEY_CURRENT_USER\SOFTWARE\Microsoft\Internet Explorer\Main</p>
-<p>HKEY_ LOCAL_MACHINE\SOFTWARE\Microsoft\Internet Explorer\Main</p>
-<p>HKEY_USERS\Default\Software\Microsoft\Internet Explorer\Main</p>
-<h3 id="第三步："><a href="#第三步：" class="headerlink" title="第三步："></a>第三步：</h3><p>完成以上工作后，将系统设置为“显示隐藏的文件、文件夹”，然后在C:\Windows目录下找到OEM文件（或文件夹），将他们删除。</p>
-<p>通过以上方法，应该可以解决了。</p>
+        <h2 id="Installation"><a href="#Installation" class="headerlink" title="Installation"></a>Installation</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">npm i --save hexo-generator-recent</div></pre></td></tr></table></figure>
+<a id="more"></a>
+<h2 id="Usage"><a href="#Usage" class="headerlink" title="Usage"></a>Usage</h2><p>Just generate as usual</p>
+<p>Using the default settings, the recent.json will contain the most recent 5 posts and list all keys</p>
+<p>##Configuration<br>an example. would be included in _config.yml<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line">generatorRecent:</div><div class="line">  file: recent.json</div><div class="line">  number: 5</div><div class="line">  sort: -date</div><div class="line">  fields: # set to true for all fields (default)</div><div class="line">    - title</div><div class="line">    - slug</div><div class="line">    - date</div><div class="line">    - tags</div></pre></td></tr></table></figure></p>
 
       
     </div>
@@ -322,12 +317,16 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
+              <a href="/2016/03/12/Test-Article/" rel="next" title="Test Article">
+                <i class="fa fa-chevron-left"></i> Test Article
+              </a>
+            
           </div>
 
           <div class="post-nav-prev post-nav-item">
             
-              <a href="/2016/08/12/Test-Recent-Articles/" rel="prev" title="Test Recent Articles">
-                Test Recent Articles <i class="fa fa-chevron-right"></i>
+              <a href="/2016/10/12/hello-world/" rel="prev" title="Hello World">
+                Hello World <i class="fa fa-chevron-right"></i>
               </a>
             
           </div>
@@ -428,7 +427,7 @@
               
             
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#小马激活篡改主页"><span class="nav-number">1.</span> <span class="nav-text">小马激活篡改主页</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#第一步"><span class="nav-number">1.1.</span> <span class="nav-text">第一步:</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#第二步："><span class="nav-number">1.2.</span> <span class="nav-text">第二步：</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#第三步："><span class="nav-number">1.3.</span> <span class="nav-text">第三步：</span></a></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Installation"><span class="nav-number">1.</span> <span class="nav-text">Installation</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Usage"><span class="nav-number">2.</span> <span class="nav-text">Usage</span></a></li></ol></div>
             
           </div>
         </section>
@@ -461,7 +460,7 @@
 <div class="theme-info">
   主题 -
   <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">
-    NexT.Muse
+    NexT.Pisces
   </a>
 </div>
 
@@ -526,6 +525,13 @@
 
   
   
+
+
+  <script type="text/javascript" src="/js/src/affix.js?v=5.0.2"></script>
+
+  <script type="text/javascript" src="/js/src/schemes/pisces.js?v=5.0.2"></script>
+
+
 
   
   <script type="text/javascript" src="/js/src/scrollspy.js?v=5.0.2"></script>
